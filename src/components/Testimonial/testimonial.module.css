@@ -1,0 +1,44 @@
+.container {
+    padding-top: 80px;
+    z-index: 2;
+    position: relative;
+}
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 37px;
+}
+.testimonialCard {
+    display: flex;
+}
+.btnContainer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.seprationWebMargin {
+    margin: 0px 20px;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+    .container {
+        padding-top: 0px;
+        z-index: 2;
+        position: relative;
+    }
+    .testimonialCard {
+        flex-direction: column;
+    }
+    .seprationMargin {
+        margin: 0px 20px;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 1024px) {
+}

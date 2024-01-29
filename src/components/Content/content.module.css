@@ -1,0 +1,29 @@
+.heading {
+    font-size: 43px;
+    line-height: 50px;
+}
+.paragraphText {
+    color: hsl(0, 0%, 69%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+    .heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .paragraphText {
+        margin-top: 11px;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 1024px) {
+}

@@ -1,0 +1,31 @@
+.menuContainer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding-top: 17px;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+  .btnContainer {
+    display: none;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .hamburgerMenuContainer {
+    display: none;
+  }
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 1024px) {
+  .hamburgerMenuContainer {
+    display: none;
+  }
+}

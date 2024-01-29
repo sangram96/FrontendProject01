@@ -1,0 +1,39 @@
+.subContainer {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 35px;
+}
+.contentContainer {
+  padding: 0px 10px;
+}
+.headingText {
+  font-size: 17px;
+  line-height: 21px;
+}
+.paragraphText {
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+  .headingText {
+    font-size: 23px;
+    line-height: 21px;
+  }
+  .paragraphText {
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 26px;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 1024px) {
+}

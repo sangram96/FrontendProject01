@@ -1,0 +1,98 @@
+.container {
+  background-color: hsl(233, 12%, 13%);
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+.footerMenu > li {
+  list-style: none;
+  color: #fff;
+  padding: 7px;
+  font-size: 17px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.logo {
+  padding-top: 7px;
+}
+.userIpt {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+.footerInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.userTxtField {
+  padding: 11px;
+  border-radius: 65px;
+  border: none;
+}
+.userInputBtn {
+  padding-top: 5px;
+  padding-left: 9px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.bottomTxt {
+  color: #fff;
+}
+.footerMenuList {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 767px) {
+  .container {
+    flex-direction: column-reverse;
+    padding: 30px 20px;
+  }
+  .subContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footerMenuList {
+    margin: 20px;
+    justify-content: space-between;
+  }
+  .userTxtField {
+    width: 100%;
+  }
+  .footerCopyRight {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 10px;
+  }
+  .logo {
+    text-align: center;
+    padding: 30px;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 1024px) {
+}
